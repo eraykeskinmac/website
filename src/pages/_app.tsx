@@ -1,6 +1,7 @@
-import { Newsreader } from 'next/font/google';
 import '../styles/globals.css';
+
 import type { AppProps } from 'next/app';
+import { Newsreader } from 'next/font/google';
 import font from 'next/font/local';
 import Head from 'next/head';
 import { Toaster } from 'react-hot-toast';
@@ -31,7 +32,7 @@ export default function App({Component, pageProps}: AppProps) {
 			<Head>
 				<title>Eray Keskin</title>
 				<meta content="width=device-width, initial-scale=1" name="viewport" />
-				<link rel="icon" href="/favicon.ico" />
+				<link rel="icon" href="/favicon.ico" sizes="any" />
 			</Head>
 
 			<Component {...pageProps} />

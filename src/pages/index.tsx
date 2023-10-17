@@ -150,7 +150,7 @@ export default function Home() {
 			</CardHoverEffect>
 
 
-			<div className="col-span-6 lg:col-span-3 flex items-center justify-center rounded-2xl bg-fuchsia-700 p-6 text-fuchsia-100 md:col-span-2">
+			<div className="col-span-6 flex items-center justify-center rounded-2xl bg-fuchsia-700 p-6 text-fuchsia-100 md:col-span-2">
 				<div className="grid w-full grid-cols-4 grid-rows-4 gap-4 [&>svg]:w-full [&>svg]:text-center">
 					<SiTypescript size={24} />
 					<SiDocker size={24} />

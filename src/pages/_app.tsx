@@ -1,13 +1,14 @@
+import { Newsreader } from 'next/font/google';
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
-import { Nanum_Myeongjo } from 'next/font/google';
 import font from 'next/font/local';
 import Head from 'next/head';
 import { Toaster } from 'react-hot-toast';
 
-const title = Nanum_Myeongjo({
+const title = Newsreader({
 	subsets: ['latin'],
-	weight: '400',
+	weight: ['400', '200'],
+	style: 'italic',
 	fallback: ['serif'],
 });
 

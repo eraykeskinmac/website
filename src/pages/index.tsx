@@ -55,8 +55,8 @@ export default function Home() {
 
 
 	return (
-		<main className="mx-auto grid max-w-3xl grid-cols-6 gap-6 px-6 pb-40 pt-16">
-			<div className="col-span-4 flex h-52 flex-col justify-between overflow-hidden rounded-2xl bg-pink-200 px-8 py-8 dark:border-pink-500 dark:bg-pink-500/20 dark:shadow-none dark:backdrop-blur-2xl md:col-span-4">
+		<main className="mx-auto grid max-w-3xl grid-cols-6 gap-6 px-6 pb-20 lg:pb-40 pt-16">
+			<div className="col-span-6 lg:col-span-4 flex h-52 flex-col justify-between overflow-hidden rounded-2xl bg-pink-200 px-8 py-8 dark:border-pink-500 dark:bg-pink-500/20 dark:shadow-none dark:backdrop-blur-2xl md:col-span-4">
 
 				<div className="flex">
 					<div className="flex items-center justify-center space-x-1.5 rounded-full bg-pink-300 px-2 py-0.5 font-title dark:bg-pink-500/25">coding</div>
@@ -73,7 +73,7 @@ export default function Home() {
 				</div>
 			</div>
 
-			<CardHoverEffect className="col-span-2 h-full">
+			<CardHoverEffect className="col-span-6 lg:col-span-2 h-40 lg:h-full">
 				<Link
 					href="https://twitter.com/devvemek"
 					target="_blank"
@@ -111,7 +111,7 @@ export default function Home() {
 			</CardHoverEffect>
 			<Time />
 
-			<CardHoverEffect className="col-span-3 h-full md:col-span-3">
+			<CardHoverEffect className="col-span-6 h-full md:col-span-3">
 				<Link
 					href="https://github.com/eraykeskinmac"
 					target="_blank"
@@ -150,7 +150,7 @@ export default function Home() {
 			</CardHoverEffect>
 
 
-			<div className="col-span-3 flex items-center justify-center rounded-2xl bg-fuchsia-700 p-6 text-fuchsia-100 md:col-span-2">
+			<div className="col-span-6 lg:col-span-3 flex items-center justify-center rounded-2xl bg-fuchsia-700 p-6 text-fuchsia-100 md:col-span-2">
 				<div className="grid w-full grid-cols-4 grid-rows-4 gap-4 [&>svg]:w-full [&>svg]:text-center">
 					<SiTypescript size={24} />
 					<SiDocker size={24} />

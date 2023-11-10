@@ -84,7 +84,7 @@ export default function Home() {
 					)}
 				>
 					<span className="sr-only">Twitter</span>
-					<span className="transform-gpu transition duration-500 group-hover:scale-[1.3]">
+					<span className=" transform-gpu transition duration-500 group-hover:scale-[1.3]">
 						<SiX />
 					</span>
 				</Link>
@@ -101,12 +101,10 @@ export default function Home() {
 						hoverClassName,
 					)}
 				>
-				<div className="-rotate-[4deg] scale-[1] space-y-1 text-center md:scale-[1.2]">
 					<span className='sr-only'>Linkedin</span>
-					<span>
-						<SiLinkedin className="inline" /> 
-					</span>
-				</div>
+					<span className="transform-gpu transition duration-500 group-hover:scale-[1.3]">
+						<SiLinkedin /> 
+					</span>	
 				</Link>
 			</CardHoverEffect>
 			<Time />

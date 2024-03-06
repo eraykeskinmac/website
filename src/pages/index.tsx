@@ -75,7 +75,7 @@ export default function Home() {
 
 			<CardHoverEffect className="col-span-6 lg:col-span-2 h-40 lg:h-full">
 				<Link
-					href="https://twitter.com/devvemek"
+					href="https://twitter.com/eraykeskinmac"
 					target="_blank"
 					rel="noopener noreferrer"
 					className={clsx(
@@ -90,7 +90,7 @@ export default function Home() {
 				</Link>
 			</CardHoverEffect>
 			<CardHoverEffect
-				className="col-span-3 md:col-span-2 h-52"	
+				className="col-span-3 md:col-span-2 h-52"
 			>
 				<Link
 				href="https://www.linkedin.com/in/eraykeskinmac/"
@@ -103,8 +103,8 @@ export default function Home() {
 				>
 					<span className='sr-only'>Linkedin</span>
 					<span className="transform-gpu transition duration-500 group-hover:scale-[1.3]">
-						<SiLinkedin /> 
-					</span>	
+						<SiLinkedin />
+					</span>
 				</Link>
 			</CardHoverEffect>
 			<Time />

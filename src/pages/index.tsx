@@ -31,28 +31,8 @@ import { Time } from '../components/time';
 import matrix from '../images/matrix.gif';
 import { age } from '../utils/constants';
 
-// export interface Props {
-// 	lanyard: Data;
-// }
-
-// export const getStaticProps: GetStaticProps<Props> = async () => {
-// 	const lanyard = await getLanyard(discordId);
-
-// 	return {
-// 		props: {
-// 			lanyard,
-// 		},
-// 	};
-// };
-
 
 export default function Home() {
-
-	//   const {data: lanyard} = useUpdatingLanyard(discordId, props.lanyard);
-
-	// 	const status = lanyard.discord_status ?? 'offline';
-
-
 
 	return (
 		<main className="mx-auto grid max-w-3xl grid-cols-6 gap-6 px-6 pb-20 lg:pb-40 pt-16">

@@ -5,6 +5,8 @@ import { Newsreader } from 'next/font/google';
 import font from 'next/font/local';
 import Head from 'next/head';
 import { Toaster } from 'react-hot-toast';
+import { Analytics } from '@vercel/analytics/next';
+
 
 const title = Newsreader({
 	subsets: ['latin'],
@@ -36,6 +38,7 @@ export default function App({Component, pageProps}: AppProps) {
 			</Head>
 
 			<Component {...pageProps} />
+			<Analytics />
 			<Toaster />
 		</>
 	);

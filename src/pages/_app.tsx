@@ -37,8 +37,8 @@ export default function App({Component, pageProps}: AppProps) {
 				<link rel="icon" href="/favicon.ico" sizes="any" />
 			</Head>
 
-			<Component {...pageProps} />
 			<Analytics />
+			<Component {...pageProps} />
 			<Toaster />
 		</>
 	);
